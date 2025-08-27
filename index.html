@@ -1,258 +1,220 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html data-bs-theme="light" lang="en" style="border-color: var(--bs-primary);--bs-primary: #eb7f00;--bs-primary-rgb: 235,127,0;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>Resume - Start Bootstrap Theme</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;display=swap">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery-baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/my_styles.css">
 </head>
 
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
-    <nav class="navbar navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">Brand</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link px-0 px-lg-3 py-3 rounded" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+<body id="page-top">
+    <nav class="bg-primary navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav"><a class="navbar-brand js-scroll-trigger" href="#page-top"><span class="d-block d-lg-none"></span><span class="d-none d-lg-block"><img class="rounded-circle img-fluid mb-2 mx-auto img-profile" src="assets/img/profile.jpg" alt="..."></span></a><button class="navbar-toggler" data-bs-toggle="collapse" type="button" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav">
+                <li class="nav-item"></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#my_story">My story</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    <header class="text-center text-white bg-primary masthead">
-        <div class="container"><img class="img-fluid d-block mb-5 mx-auto" src="assets/img/profile.png">
-            <h1>John Doe</h1>
-            <hr class="star-light">
-            <h2 class="fw-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
-        </div>
-    </header>
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
-            <hr class="mb-5 star-dark">
-            <div class="row">
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cabin.png">
+    <div class="container-fluid p-0">
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">Ondřej&nbsp;<span class="text-primary">Theiner</span></h1>
+                <div class="mb-5 subheading"></div>
+                <p class="lead mb-5">I am a particle physicist with passion for problem solving and understanding how things work. During my Ph.D. studies at University of Geneva, I worked at CERN on ATLAS and FASER experiments, where I searched for physics beyond Standard Model. I have experience with solving complex problems using maths and physics, analysing large data volumes, and software development. If you want to know more, keep reading...</p>
+                <div class="social-icons"><a class="download-button" href="">
+                        <p>Resume.pdf&nbsp;</p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-file-pdf">
+                            <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"></path>
+                            <path d="M4.603 12.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.701 19.701 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.716 5.716 0 0 1-.911-.95 11.642 11.642 0 0 0-1.997.406 11.311 11.311 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.27.27 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.647 12.647 0 0 1 1.01-.193 11.666 11.666 0 0 1-.51-.858 20.741 20.741 0 0 1-.5 1.05zm2.446.45c.15.162.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.881 3.881 0 0 0-.612-.053zM8.078 5.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"></path>
+                        </svg>
                     </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-2" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cake.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-3" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/circus.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-4" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/game.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-5" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/safe.png">
-                    </a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6" data-bs-toggle="modal">
-                        <div class="position-absolute d-flex w-100 h-100 portfolio-item-caption">
-                            <div class="text-center text-white w-100 my-auto portfolio-item-caption-content"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/submarine.png">
-                    </a></div>
+                <div class="download-buttons"><a class="download-button" href="#!"></a></div>
             </div>
-        </div>
-    </section>
-    <section class="text-white bg-primary mb-0" id="about">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-white">About</h2>
-            <hr class="mb-5 star-light">
-            <div class="row">
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4 me-auto">
-                    <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-            </div>
-            <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="#"><i class="fa fa-download me-2"></i><span>Download Now!</span></a></div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
-            <hr class="mb-5 star-dark">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage">
-                        <div>
-                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div>
-                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div>
-                            <div class="mb-0 pb-2 form-floating"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div>
-                            <div class="mb-5 pb-2 form-floating"><textarea class="form-control" id="message" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div id="success"></div>
-                        <div><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="text-center footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
-                </div>
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase">Around the Web</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" href="#"><i class="fa fa-dribbble fa-fw"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0"><span>Freelance is a free to use, open source Bootstrap theme.&nbsp;</span></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="text-center text-white py-4 copyright">
-        <div class="container"><small>Copyright ©&nbsp;Brand 2025</small></div>
-    </div>
-    <div class="position-fixed d-lg-none scroll-to-top rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/cabin.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
+        </section>
+        <hr class="m-0">
+        <section id="my_story" class="resume-section">
+            <div class="resume-section">
+                <h2 class="mb-5">My story</h2>
+                <p>I've been interested in how things around us work since I was a child and I was particularly fascinated by the Universe. This brought me to astronomy, physics and mathematics. As a student I started participating in science olympiads, which are the competitions for young students until the end of high school where they need to solve various problems. I was interested in olympiads in astronomy, physics and mathematics and I was particularly successful in astronomy olympiad where I managed to place well in national and international rounds.&nbsp;I even brought two times bronze medal from the International Olympiad in Astronomy and Astrophysics.</p>
+                <p>I was motivated by successes in competitions and I was deepening my knowledge in these subjects. At the end of the high school, I got a chance to take part in the student internship at the Astronomical Institute of Czech Academy od Sciences and I worked with autonomous robotic telescopes, developing software for automated processing of astronomical images and identification of variable stars. This project was awarded at the national student scientific fair (SOČ) and selected for the presentation at the international MILSET Expo in Brussels.</p>
+                <p>My interest in astronomy and physics made me chose physics as a field that I wanted to study at the university. For my bachelor's I studied general physics at the Faculty of Mathematics and Physics of Charles University in Prague and I finished thesis focused on testing of silicon strip detectors for the upgrade of the ATLAS experiment at CERN. This helped me to pick the subject of my master's studies and I continued at the same faculty and I studied nuclear and subnuclear physics. For my thesis I decided to continue in the work from my bachelor thesis and I worked on the computer simulations of silicon strip detectors.</p>
+                <p>Apart form physics, I love sports and adventures. I have been climbing since I was ten years old but during my studies at the university, I started training on scooter (non-electric, see pictures) and participated in competitions, but I also used it as a way to go for a big adventures and did together with my brother several big trips across Europe. The longest one was after I finished my master's and it was 3 800 kilometres from the Czech Republic to Nordkapp - the northernmost point of Europe, which took us little over one month. It was a great adventure to do after my university studies in Prague.</p>
+                <section class="py-4 py-xl-5">
+                    <div class="container">
+                        <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
+                            <div class="col"><a href="assets/img/climbing.jpeg"><img class="img-fluid" src="assets/img/climbing.jpeg"></a></div>
+                            <div class="col"><a href="assets/img/scooter.jpeg"><img class="img-fluid" src="assets/img/scooter.jpeg"></a></div>
+                            <div class="col"><a href="assets/img/nordkapp.jpeg"><img class="img-fluid" src="assets/img/nordkapp.jpeg"></a></div>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/cake.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
+                </section>
+                <p>I enjoyed particle physics and I decided to continue in academia as a doctoral student because it was the natural way how to stay in cutting edge research in particle physics and I also wanted to get some international experience which I was missing in my previous studies. I got accepted to the group of professor Anna Sfyrla at the University of Geneva and I joined the international team and got to work on two experiments at CERN - experiments ATLAS and FASER. I learned new things from programming and electronics when I worked on the development and commissioning of the trigger and data acquisition system for (at that time) newly built FASER experiment. I also got to work in the jet-trigger group of the ATLAS experiment, where I qualified as an author by optimising algorithm that is used for the track extrapolation in the jet reconstruction in the high-level trigger. On top of that, I joined the team searching for higgsinos (particles predicted by the Supersymmetry) and worked on the analysis of the data from proton-proton collisions collected by the ATLAS experiment between years 2015-2018. Finally, in October 2024, I defended my doctoral thesis titled "Searching for new physics using the ATLAS and FASER detectors".</p>
+                <p>But things didn't always go so smoothly. I started my Ph.D. two month before the outburst of the COVID pandemic, and so the first year of my doctorate was heavily influenced by lockdowns. Staying in the new country and being isolated from my family, and colleagues and friends in Geneva due to closed borders and lockdown (I lived on the French side) wasn't easy. But I managed to find something positive about the situation and I learned how to play ukulele and later transitioned to guitar. I am no musician, but I loved the learning proces and I picked up a new hobby.</p>
+                <p>After I finished my Ph.D., I wanted to do a big adventure to get some mental rest but also to have time for thinking about my future steps. Driven by motto "go big, or go home" I decided to fly to New Zealand and walk the length of the country on Te Araro trail. Te Araroa is 3 040 km long trail going through challenging terrains in New Zealand, covering both islands, with more than 82 000 meters of positive elevation gain.&nbsp;</p>
+                <section class="py-4 py-xl-5">
+                    <div class="container">
+                        <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-baguettebox="">
+                            <div class="col"><a href="assets/img/capereinga.jpeg"><img class="img-fluid" src="assets/img/capereinga.jpeg"></a></div>
+                            <div class="col"><a href="assets/img/stagsaddle.jpeg"><img class="img-fluid" src="assets/img/stagsaddle.jpeg"></a></div>
+                            <div class="col"><a href="assets/img/river.jpeg"><img class="img-fluid" src="assets/img/river.jpeg"></a></div>
+                            <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></a></div>
+                            <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></a></div>
+                            <div class="col"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></a></div>
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+                </section>
+                <p>Te Araroa was a big adventure, but also a transforming experience. Not only it was a huge adventure and challenge but I also learned a lot of things about myself and I had time to think. I like science but I got to the conclusion that I would like to use my experience gained during my studies and apply it outside of academia. Time to embark on the new adventures!</p>
             </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/circus.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
-                        </div>
+        </section>
+        <hr>
+        <section class="resume-section" id="experience">
+            <div class="resume-section">
+                <h2 class="mb-5">Experience</h2>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>Analysis of the LHC collision data</strong></h3>
+                        <div class="mb-3 subheading"><span>CERN &amp; University of GEVA</span></div>
+                        <p>I searched for the new physic in the large data sets from the ATLAS experiment. I used statistical hypothesis testing methods and tools such as ROOT, Python, C++.</p>
                     </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2021-2024</span></div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/game.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
-                        </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>software OPtimization</strong></h3>
+                        <div class="mb-3 subheading"><span>CERN &amp; University of GEVA</span></div>
+                        <p>Optimized part of the data-reconstruction algorithm used for triggering at the ATLAS experiment. This saved valuable 1.2% of CPU time used in high level trigger data reconstruction, and allowed to run better data selection algorithms.</p>
                     </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2021-2023</span></div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/safe.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
-                        </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">SOFTWARE COntainerisation</h3>
+                        <div class="mb-3 subheading"><span>CERN &amp; University of GEVA</span></div>
+                        <p>Preserved analysis workflow and analysis software of one of the ATLAS searches. This required using Docker to containerise software environment and RECAST, which is YAML-based workflow description framework, to describe and automatise analysis workflow.&nbsp;<br> </p>
                     </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2022-2024</span></div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="mb-5 star-dark"><img class="img-fluid mb-5" src="assets/img/portfolio/submarine.png">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            </div>
-                        </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>Development of TDAQ System</strong></h3>
+                        <div class="mb-3 subheading"><span>CERN &amp; University of GEVA</span></div>
+                        <p>Took part in the development of the trigger and data acquisition system for the FASER experiment. The software was written in C++ and it was responsible for the detector readout and data acquisition.</p>
                     </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2019-2021</span></div>
                 </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill" role="button" data-bs-dismiss="modal"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>Simulation of silicon detectors</strong></h3>
+                        <div class="mb-3 subheading"><span>Charles university</span></div>
+                        <p>Laser-tested and simulated response of strip silicon detectors for the ATLAS Upgrade, CERN. Simulation was done in Allpix^2, which is software based on Geant4 used for simulation of particles with matter.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2016-2019</span></div>
+                </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>Automated processing of astronomical images</strong></h3>
+                        <div class="mb-3 subheading"><span>Academy of sciences of Czech republic</span></div>
+                        <p>Developed software for processing of CCD images using Java and mySQL. This was part of the high-school student internship and the project was awarded by the second place in the national round of student science fair (SOČ) and was presented at international MILSET Expo in Brussels.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2013-2014</span></div>
+                </div>
             </div>
-        </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">University of Geneva</h3>
+                        <div class="mb-3 subheading"><span>Doctoral degree (Ph.D.) - particle physics</span></div>
+                        <ul>
+                            <li>Research area: Searches for Physics Beyond Standard Model</li>
+                            <li>In collaboration with CERN, experiments FASER and ATLAS</li>
+                            <li>Thesis link:&nbsp;<a href="https://repository.cern/records/wp9p0-hkk75">here</a></li>
+                        </ul>
+                        <div></div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2019-2024</span></div>
+                </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">charles university</h3>
+                        <div class="mb-3 subheading"><span>master's degree (mgr.) - nuclear and subnuclear physics</span></div>
+                        <ul>
+                            <li>Courses covering topics from quantum field theory, nuclear physics, to experimental methods and instrumentation in particle physics</li>
+                            <li>Thesis focused on simulations of silicon strip detectors for ATLAS Upgrade experiment at CERN</li>
+                            <li>Thesis link:&nbsp;<a href="https://dspace.cuni.cz/handle/20.500.11956/107072">here</a></li>
+                        </ul>
+                        <div></div>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2019-2024</span></div>
+                </div>
+                <div class="d-flex flex-column justify-content-between flex-md-row">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><strong>charles university</strong></h3>
+                        <div class="mb-3 subheading"><span>bachelor's degree (Bc.) - general physics</span></div>
+                        <ul>
+                            <li>Courses covering mathematical analysis, linear algebra, lab work and various branches of physics such as theoretical physics, mechanics, electromagnetism, atomic physics, optics, and particle physics</li>
+                            <li>Thesis focused on testing strip detectors for ATLAS Upgrade experiment at CERN</li>
+                            <li>Thesis link:&nbsp;<a href="https://dspace.cuni.cz/handle/20.500.11956/86255">here</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2014 - 2017</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+                <div class="mb-3 subheading"><span>Programming Languages &amp; Tools</span></div>
+                <ul class="mb-0 fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> Python, C++</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> shell, git, GitLab CI/CD, LaTeX, gnuplot, ROOT</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> Linux, macOS, Windows</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> mySQL</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> Excel, Powepoint</li>
+                </ul>
+                <ul class="list-inline dev-icons"></ul>
+                <div class="mb-3 subheading"><span>Languages</span></div>
+                <ul class="mb-0 fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> Czech (native speaker)</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> English (C1/C2)</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> French (A1/A2)</li>
+                    <li><span class="fa-li"><i class="fas fa-check"></i></span> Spanish (A2)</li>
+                </ul>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section id="contact" class="resume-section">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Contact</h2>
+                <p>You can contact me on my LinkedIn or by e-mail.&nbsp;</p>
+                <div class="social-icons"><a class="social-icon" href="https://www.linkedin.com/in/ond%C5%99ej-theiner-846522261/"><i class="fab fa-linkedin-in"></i></a><a class="social-icon" href="mailto:ondrejtheiner@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
+                        </svg></a></div>
+            </div>
+        </section>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/freelancer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/Lightbox-Gallery-baguetteBox.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,31 @@
+.social-icons .download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.0rem;
+  width: 9.0rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icons .download-button:last-child {
+  margin-right: 0;
+}
+
+.social-icons .download-button:hover {
+  background-color: #bd5d38;
+}
+
+.social-icons p {
+  margin: 0;
+  font-size: 12pt;
+}
+
+.resume-section a {
+  color: var(--bs-toast-bg);
+  text-decoration: underline;
+}
+
